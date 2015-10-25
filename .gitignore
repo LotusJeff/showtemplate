@@ -1,0 +1,4 @@
+/build/
+/vendor/
+/code_sniffer/
+mkfile.sh

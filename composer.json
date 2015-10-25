@@ -1,0 +1,34 @@
+{
+	"name": "lotusjeff/showtemplate",
+	"type": "phpbb-extension",
+	"description": "Development tool which shows all template event locations within phpBB 3.1.x.",
+	"homepage": "https://github.com/LotusJeff/showtemplate",
+	"version": "1.0.0",
+	"keywords": ["phpbb", "extension", "template", "helper"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Jeff Cocking (LotusJeff)",
+			"homepage": "http://www.cocking.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master",
+		"squizlabs/php_codesniffer": "2.*"
+	},
+	"extra": {
+		"display-name": "Show Template Event Locations",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0-RC2"
+		},
+		"version-check": {
+			"host": "",
+			"directory": "",
+			"filename": ""
+		}
+	}
+}

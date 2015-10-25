@@ -1,0 +1,9 @@
+services:
+    lotusjeff.showtemplate.listener:
+        class: lotusjeff\showtemplate\event\listener
+        arguments:
+            - @config
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }
