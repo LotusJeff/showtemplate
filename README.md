@@ -1,9 +1,9 @@
 # Show Template Event Locations for Extension Development in phpBB 3.1
 
-This extensions shows where all the [Template Events](https://wiki.phpbb.com/Event_List#Template_Events) occur within all php3.1.  
+This extensions shows where all the [Template Events](https://wiki.phpbb.com/Event_List#Template_Events) occur within php3.1.  
 
-The extension, when enabled, will list all template events templates where they appear on a given webpage. This can be used to quickly determine
-which template needs to be used to make changes.
+The extension, when enabled, will show all where all the template events appear. This can be used to quickly determine
+which template needs to be used during the development process.
 
 ## Installation
 1. [Download the latest release](https://github.com/LotusJeff/showtemplate) and unzip it (or use git clone.)
